@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nav-element {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  height: 100px;
+  width: 100%;
+  background-color: #cbd5e1;
+}
+
+.website-logo {
+  height: 50px;
+  width: 200px;
+  padding-left: 30px;
+}
+
+.main-container {
+  display: flex;
+}
+
+.select-option {
+  border: 1px solid #e6e9ec;
+  border-radius: 7px;
+  padding-top: 20px;
+  padding: 7px;
+  color: black;
+  font-size: 12px;
+  height: 35px;
+  width: 300px;
+  outline: none;
+  cursor: pointer;
+}
+
+.fail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.image-fail {
+  height: 275px;
+  width: 275px;
+}
+
+.header-failure {
+  color: #475569;
+  font-size: 42px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.para-failure {
+  color: #475569;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.button-retry {
+  background-color: #328af2;
+  color: #ffffff;
+  padding: 7px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+
+.success-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.app-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
